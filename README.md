@@ -1,5 +1,9 @@
 # Takeover Triage
 
+<p align="center">
+  <img src="docs/images/banner.png" alt="Takeover Triage Banner">
+</p>
+
 > High-confidence Subdomain Takeover Triage Tool
 
 Takeover Triage is a high-confidence subdomain takeover scanner designed to reduce false positives through a structured three-gate verification model.
@@ -106,6 +110,11 @@ Cross-reference with can-i-take-over-xyz
 python takeover_triage.py -l subs.txt --xyz
 ```
 
+Best use-case
+
+```bash
+python3 takeover_triage.py -l subs.txt -v --doh-fallback -w 15 -xyz --json results.json
+```
 ---
 
 ## Three Gate Verification
