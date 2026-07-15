@@ -1,0 +1,57 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtualenv
+venv/
+env/
+.venv/
+
+# Distribution
+build/
+dist/
+*.egg-info/
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# JSON scan results
+results.json
+*.json.bak
+
+# Cache
+.takeover_triage_cache/
+.cache/
+
+# macOS
+.DS_Store
+
+# Linux
+*~
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Python cache
+.pytest_cache/
+.mypy_cache/
+
+# Bytecode
+*.pyo
+
+# Environment
+.env
+
+# Coverage
+.coverage
+htmlcov/
+
+# Temporary
+tmp/
+temp/
