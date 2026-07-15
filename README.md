@@ -1,7 +1,7 @@
 # Takeover Triage
 
 <p align="center">
-  <img src="docs/images/banner.png" alt="Takeover Triage Banner">
+  <img src="docs/images/banner_me.png" alt="Takeover Triage Banner">
 </p>
 
 > High-confidence Subdomain Takeover Triage Tool
